@@ -1,0 +1,63 @@
+
+
+.App{
+  padding: 0 20rem;
+  
+}
+
+
+
+
+.item{
+  width: 100%; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.item-con{
+  display: flex;
+   justify-content: space-between;
+}
+
+.item-container > img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.buttons{
+  width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row wrap;
+  
+  
+}
+
+.btn{
+  border: 1px solid dimgrey;
+  margin: 5px 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  user-select: none;
+  font-size: .5em;
+  font-weight: bold;
+  color: dimgray;
+}
+
+.btn:not(:last-child){
+  margin-right: 1rem;
+}
+
+.btn:hover{
+  background-color: #037FFf;
+  cursor: pointer;
+}
+
+.btn:active, .btn:focus{
+  outline: none;
+  border: none;
+}
